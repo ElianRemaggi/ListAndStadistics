@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import 'lenis/dist/lenis.css';
+
+@media (width >=300px) {}
+
+@media (width < 1000px) {}
+
+@media (640px <=width < 768px) {}
+
+@media (width < 640px) {}
+
+html {
+    font-size: 18px;
+}
