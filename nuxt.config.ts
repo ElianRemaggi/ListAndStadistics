@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   css: ['@/assets/css/main.css', 'vue3-easy-data-table/dist/style.css' ],
   modules: ['lenis/nuxt'],
   app: {
-    baseURL: '/sgh/sistemas/Laboratorio/EstadisticasSedes/EstadisticasSedesApp/build2.0/',
+    baseURL: '/build/',
     buildAssetsDir: '_nuxt'
   },
   nitro: {
@@ -23,7 +23,7 @@ export default defineNuxtConfig({
   },
   vite: {
     plugins: [tailwindcss()],
-    base: '/sgh/sistemas/Laboratorio/EstadisticasSedes/EstadisticasSedesApp/build2.0/',
+    base: '/build/',
     server: {
       proxy: {
         "/api": {
